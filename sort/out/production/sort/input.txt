@@ -7,4 +7,4 @@ add 2 another
 add 3 and another one
 remove 2
 add -1 1
-print 1.txt
+print 2.txt

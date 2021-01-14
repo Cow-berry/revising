@@ -1,9 +1,11 @@
 package parser;
 
-import Entry.*;
+import entry.*;
+import exceptions.*;
+import parser.CharSource;
 import exceptions.ParseException;
 
-import static Entry.EntryType.*;
+import static entry.EntryType.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;

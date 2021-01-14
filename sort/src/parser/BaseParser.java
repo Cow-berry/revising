@@ -1,6 +1,6 @@
 package parser;
 
-import exceptions.ParseException;
+import exceptions.*;
 
 public class BaseParser {
     public static final char END = '\0';

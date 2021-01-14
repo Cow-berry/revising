@@ -1,4 +1,4 @@
-package Entry;
+package entry;
 
 public class Entry {
     private final EntryType type;

@@ -1,5 +1,5 @@
-import static Entry.EntryType.*;
-import Entry.*;
+import static entry.EntryType.*;
+import entry.*;
 import parser.EntryParser;
 
 import java.io.*;

@@ -5,7 +5,6 @@ import model.*;
 
 public class Main {
     public static void main(String[] args) {
-        long a = 0400000000000000000000L;
         Parser parser = new MovesParser();
         Move[] moves = parser.parse(args[0]);
         Cube cube = new Cube();

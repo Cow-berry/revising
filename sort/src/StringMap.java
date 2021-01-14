@@ -1,4 +1,4 @@
-import Entry.Entry;
+import entry.Entry;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

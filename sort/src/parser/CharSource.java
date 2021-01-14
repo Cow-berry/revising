@@ -1,8 +1,6 @@
 package parser;
 
-import exceptions.ParseException;
-
-import java.io.IOException;
+import exceptions.*;
 
 public interface CharSource {
         boolean hasNext();
