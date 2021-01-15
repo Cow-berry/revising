@@ -1,0 +1,34 @@
+package parser;
+
+import dnfException.ParseException;
+
+/**
+ * @author Georgiy Korneev (kgeorgiy@kgeorgiy.info)
+ */
+public class StringSource implements CharSource {
+    private final String data;
+    private int pos;
+
+    public StringSource(final String data) {
+        this.data = data;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return pos < data.length();
+    }
+
+    @Override
+    public char next() {
+        return data.charAt(pos++);
+    }
+
+    public void goBack(int length) {
+        pos -= length;
+    }
+
+    @Override
+    public ParseException error(final String message) {
+        return new ParseException(pos + ": " + message);
+    }
+}
